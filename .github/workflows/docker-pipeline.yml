@@ -2,10 +2,11 @@ name: Docker Build and Deploy
 
 on:
   push:
-    paths:
-      - 'prueba3-craftech/index.html'
     branches:
-      - master  
+      - master
+    paths:
+      - prueba3-craftech/index.html
+  
 
 jobs:
   build:
