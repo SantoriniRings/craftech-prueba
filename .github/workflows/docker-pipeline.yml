@@ -27,7 +27,7 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/nginx:latest ./public
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/nginx:latest ./prueba3-craftech
 
       - name: Push the Docker image
         run: |
